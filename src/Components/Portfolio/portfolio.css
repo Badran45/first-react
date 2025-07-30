@@ -1,0 +1,43 @@
+.head_portfolio {
+    color: #2C3E50;
+    
+    
+}
+
+/* icon style by main .css */
+.icon_head::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #2C3E50;
+    width: 90px;
+     top: 50%;  
+     transform: translateY(-50);
+     left: 30px;
+     
+}
+.icon_head::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    background-color: #2C3E50;
+    width: 90px;
+     top: 50%;  
+     transform: translateY(-50);
+     right: 30px;
+     
+}
+img{
+    cursor: pointer;
+}
+.layer{
+    position: absolute;
+    inset: 0;
+   background-color:   rgb(26, 186, 159,.5);
+   opacity: 0 ;
+   transition: all .5s;
+}
+
+.box_img:hover .layer{
+    opacity: 1;
+}
