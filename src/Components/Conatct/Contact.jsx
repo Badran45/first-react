@@ -6,7 +6,7 @@ const Contact = () => {
 <>
      <div className="head_portfolio mt-4 mb-5 ">
           <h1 className="text-center text-uppercase fw-bold ">
-            conatct section
+            conatct 
           </h1>
 
           <div className=" p-2 text-center">

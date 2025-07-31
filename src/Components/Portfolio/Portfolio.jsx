@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-import img1 from "./../../assets/poert1.png";
-import img2 from "./../../assets/port2.png";
-import img3 from "./../../assets/port3.png";
+// import img1 from "./../../assets/poert1.png";
+// import img2 from "./../../assets/port2.png";
+// import img3 from "./../../assets/port3.png";
+import img1 from "./../../assets/A1.jpg";
+import img2 from "./../../assets/A2.jpg";
+import img3 from "./../../assets/A3.jpg";
+import img4 from "./../../assets/A4.jpg";
+import img5 from "./../../assets/A5.jpg";
+import img6 from "./../../assets/A6.jpg";
 
 const Portfolio = () => {
-  let allImages = [img1, img2, img3, img1, img2, img3];
+  let allImages = [img1, img2, img3, img4, img5, img6];
     const [modal, setmodal] = useState(false)
     const [current, setcurrent] = useState(null)
 
@@ -23,7 +29,7 @@ console.log(e.target.tagName);
       <div className="container mb-5 ">
         <div className="head_portfolio mt-4 ">
           <h1 className="text-center text-uppercase fw-bold ">
-            portfolio component
+            portfolio 
           </h1>
 
           <div className=" p-2 text-center">
@@ -36,7 +42,7 @@ console.log(e.target.tagName);
           {allImages.map((item, index) => (
             <div className="col-md-4" key={index}>
               <div className="box_img  position-relative" onClick={()=>{setmodal(true),setcurrent(item)}}>
-                <img src={item} className="w-100 rounded" alt="photo" />
+                <img src={item} className="w-100 rounded portimg" alt="photo" />
                 <div className="layer"></div>
               </div>
             </div>
