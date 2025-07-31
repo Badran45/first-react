@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-// import img1 from "./../../assets/poert1.png";
-// import img2 from "./../../assets/port2.png";
-// import img3 from "./../../assets/port3.png";
-import img1 from "./../../assets/A1.jpg";
-import img2 from "./../../assets/A2.jpg";
-import img3 from "./../../assets/A3.jpg";
-import img4 from "./../../assets/A4.jpg";
-import img5 from "./../../assets/A5.jpg";
-import img6 from "./../../assets/A6.jpg";
+import img1 from "./../../assets/poert1.png";
+import img2 from "./../../assets/port2.png";
+import img3 from "./../../assets/port3.png";
+
 
 const Portfolio = () => {
-  let allImages = [img1, img2, img3, img4, img5, img6];
+  let allImages = [img1, img2, img3, img1, img2, img3];
     const [modal, setmodal] = useState(false)
     const [current, setcurrent] = useState(null)
 

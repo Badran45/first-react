@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import img from "./../../assets/porte.jpg"
+
 
 
 const Navbar = () => {
@@ -25,10 +25,9 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg navColor fixed-top transit ${isScroll ? 'py-1' : 'py-4'}`}>
       <div className="container">
-        <Link className="navbar-brand text-white text-uppercase fw-bold fs-2" to="home">
-          BADRAN FITNESS
+        <Link className="navbar-brand text-white text-uppercase fw-bold fs-2" to="/">
+        Start framework
         </Link>
-        <img className="imgIcon" src={img} alt="" />
         <button
           className="navbar-toggler"
           type="button"

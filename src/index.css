@@ -1,5 +1,5 @@
 .navColor{
-  background: linear-gradient(to right, #990000, #4B0082);
+  background-color: #2C3E50;
 }
 
 .active{
@@ -24,7 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   background: linear-gradient(to bottom right, #990000, #000000);
+  background-color: #1ABC9C;
     height: 700px;
 }
 
@@ -74,7 +74,7 @@ input:focus{
 
 
 .footer{
-    background: linear-gradient(to right, #990000, #4B0082);
+  background-color: #2C3E50;
 }
 .circle-icon {
   width: 45px;
@@ -94,9 +94,9 @@ input:focus{
 
 .circle-icon:hover {
   background-color: white;
-  color: #2C3E50; /* أي لون يعجبك */
+  color: #2C3E50; 
 }
 
 .endFooter{
-background: linear-gradient(to right, #111111, #2C2C2C);
+background-color: #1A252F;
 }
